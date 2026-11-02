@@ -1,11 +1,11 @@
-# tts_jd089
+# structured_output_constrained_decoding_count_trace
 
 **追溯语音合成工程师·结构化输出的约束解码里每一份贡献来自哪里。**
 
-`tts_jd089` —— 统计各来源片段的贡献量与占比，标出语音合成工程师·结构化输出的约束解码上最主要的来源
+`structured_output_constrained_decoding_count_trace` —— 统计各来源片段的贡献量与占比，标出语音合成工程师·结构化输出的约束解码上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`tts_jd089.py` 拷走就能用
+- 单文件，`structured_output_constrained_decoding_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install beechprint-tts_jd089
+pip install beechprint-structured_output_constrained_decoding_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-tts_jd089 --help
+structured_output_constrained_decoding_count_trace --help
 ```
 
-也可以不用安装，直接把 `tts_jd089.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `structured_output_constrained_decoding_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ tts_jd089 --help
 ## 用法
 
 ```bash
-python tts_jd089.py --file input.txt
-python tts_jd089.py --text "示例内容"
-python tts_jd089.py --file input.txt --json
+python structured_output_constrained_decoding_count_trace.py --file input.txt
+python structured_output_constrained_decoding_count_trace.py --text "示例内容"
+python structured_output_constrained_decoding_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python tts_jd089.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_tts_jd089.py
+python test_structured_output_constrained_decoding_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_tts_jd089.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/beechprint/tts_jd089>
+- GitHub 仓库：<https://github.com/beechprint/structured_output_constrained_decoding_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_tts_jd089.py
 beechprint 做语音合成工程师·结构化输出的约束解码相关的问题，方向对标小米的中级语音合成工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://beechprint.github.io>
-- 仓库：<https://github.com/beechprint/tts_jd089>
+- 仓库：<https://github.com/beechprint/structured_output_constrained_decoding_count_trace>
 
 ## 许可
 

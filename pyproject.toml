@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "beechprint-tts_jd089"
+name = "beechprint-structured_output_constrained_decoding_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出语音合成工程师·结构化输出的约束解码上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://beechprint.github.io"
-Repository = "https://github.com/beechprint/tts_jd089"
-Issues = "https://github.com/beechprint/tts_jd089/issues"
+Repository = "https://github.com/beechprint/structured_output_constrained_decoding_count_trace"
+Issues = "https://github.com/beechprint/structured_output_constrained_decoding_count_trace/issues"
 
 [project.scripts]
-tts_jd089 = "tts_jd089:main"
+structured_output_constrained_decoding_count_trace = "structured_output_constrained_decoding_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["tts_jd089"]
+py-modules = ["structured_output_constrained_decoding_count_trace"]
